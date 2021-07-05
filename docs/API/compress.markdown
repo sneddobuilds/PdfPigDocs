@@ -5,7 +5,7 @@ parent: API
 ---
 
 # Compress
-Merge allows you to post a zip of pdfs and images to be merged together and compressed.
+Allows you to compress a pdf.
 
 
 | Endpoint        |
