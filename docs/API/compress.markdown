@@ -2,6 +2,7 @@
 layout: page
 title: Compress API
 parent: API
+nav_order: 2
 ---
 
 # Compress
