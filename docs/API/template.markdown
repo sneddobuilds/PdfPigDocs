@@ -12,6 +12,7 @@ Template allows you to manage your html templates for pdf generation
 | Endpoint        |
 |:-------------|
 | <span class="label label-blue">Get</span>  /Template/Get/{templateId}          |
+
 | Example        |
 |:-------------|
 | `https://api.pdfpig.xyz/Template/Get/573d536b-65fc-4e46-ace9-d77dd3ee9b32`          |
