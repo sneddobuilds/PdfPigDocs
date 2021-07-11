@@ -58,15 +58,10 @@ The required request options are as follows:
 ### Response
 Returns Json representing the result.
 
-<table>
-<thead>
-  <tr>
-<th>Example Response</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>
+
+#### Example Response
+
+
 ```json
 {
     "resultItem": {
@@ -81,11 +76,6 @@ Returns Json representing the result.
     "errors": null
 }
 ```
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ___
 
