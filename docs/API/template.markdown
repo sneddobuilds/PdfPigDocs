@@ -80,7 +80,7 @@ Returns Json representing the result.
     "success": true,
     "errors": null
 }
-```          
+```
 </td>
 </tr>
 </table>
