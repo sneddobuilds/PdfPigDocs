@@ -68,12 +68,19 @@ Returns Json representing the result.
 <tr>
     <td>
 
+
+
+</td>
+</tr>
+</table>
+
+
 <pre>
   <code>
 {
     "resultItem": {
         "name": "Template name",
-        "templateHtml": "<div style=\"font-family: 'Arial',sans-serif; margin-left: 50px; width: 700px;\">\r\n<h2 style=\"margin-bottom: 25px; color: black; font-size: 27px;\">My Document template<\/h2>\r\n<p style=\"font-size: 1.2em;\">&nbsp;<\/p>\r\n<p style=\"font-size: 1.2em;\"><strong>Name:<\/strong> {{name1}}<\/p>\r\n<p style=\"font-size: 1.2em;\"><strong>Email:<\/strong> {{email1}}<\/p>\r\n<p style=\"font-size: 1.2em;\"><strong>Mobile Number:<\/strong> {{phone1}}<\/p>\r\n<p style=\"font-size: 1.2em;\">&nbsp;<\/p>\r\n  <h3>Orders:<\/h3>\r\n  <table>\r\n {% for order in orders %}\r\n  <tr>\r\n    <td>\r\n    {{ order.id }}\r\n    <\/td>\r\n    <td>\r\n      {{ order.cost }}\r\n    <\/td>\r\n    <\/tr>\r\n{% endfor %}\r\n<\/table>\r\n<\/div>",
+        "templateHtml": "<div style=\"font-family: 'Arial',sans-serif; margin-left: 50px; width: 700px;\">\r\n<h2 style=\"margin-bottom: 25px; color: black; font-size: 27px;\">My Document template<\/h2>\r\n<p style=\"font-size: 1.2em;\">&nbsp;<\/p>\r\n<p style=\"font-size: 1.2em;\"><strong>Name:<\/strong> {{name1}}<\/p>\r\n<p style=\"font-size: 1.2em;\"><strong>Email:<\/strong> {{email1}}<\/p>\r\n<p style=\"font-size: 1.2em;\"><strong>Mobile Number:<\/strong> {{phone1}}<\/p>\r\n<p style=\"font-size: 1.2em;\">&nbsp;<\/p>\r\n<h3>Orders:<\/h3>\r\n<table>\r\n{% for order in orders %}\r\n  <tr>\r\n<td>\r\n{{ order.id }}\r\n<\/td>\r\n<td>\r\n{{ order.cost }}\r\n<\/td>\r\n<\/tr>\r\n{% endfor %}\r\n<\/table>\r\n<\/div>",
         "id": "e3ctt331-dfaa-441t-b5b8-b59463d43etr",
         "userId": "e3ctt331-dfaa-441t-b5b8-b59463d43ett",
         "createdDate": "2021-07-09T14:45:11.095082",
@@ -85,11 +92,6 @@ Returns Json representing the result.
 
 </code>
 </pre>
-
-</td>
-</tr>
-</table>
-
 
 ___
 
