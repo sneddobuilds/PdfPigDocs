@@ -124,16 +124,9 @@ The request options are as follows:
 ### Response
 Returns Json representing the result.
 
-<table>
-<thead>
-  <tr>
-<th>Example Response</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>
-```
+#### Example Response
+
+```json
 {
     "resultItem": {
         "results": [
@@ -164,10 +157,7 @@ Returns Json representing the result.
     "success": true,
     "errors": null
 }
-```          
-</td>
-</tr>
-</table>
+```
 
 ## Create Template
 
@@ -209,36 +199,23 @@ The required request options are as follows:
 <table>
 <thead>
   <tr>
-<th>Example Request Body</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>
-```
+#### Example Request Body
+
+```json
 {
     "name": "Template name",
     "templateHtml": "<div style=\"font-family: 'Arial',sans-serif; margin-left: 50px; width: 700px;\">\r\n<h2 style=\"margin-bottom: 25px; color: black; font-size: 27px;\">My Document template<\/h2>\r\n<p style=\"font-size: 1.2em;\">&nbsp;<\/p>\r\n<p style=\"font-size: 1.2em;\"><strong>Name:<\/strong> {{name1}}<\/p>\r\n<p style=\"font-size: 1.2em;\"><strong>Email:<\/strong> {{email1}}<\/p>\r\n<p style=\"font-size: 1.2em;\"><strong>Mobile Number:<\/strong> {{phone1}}<\/p>\r\n<p style=\"font-size: 1.2em;\">&nbsp;<\/p>\r\n  <h3>Orders:<\/h3>\r\n  <table>\r\n {% for order in orders %}\r\n  <tr>\r\n    <td>\r\n    {{ order.id }}\r\n    <\/td>\r\n    <td>\r\n      {{ order.cost }}\r\n    <\/td>\r\n    <\/tr>\r\n{% endfor %}\r\n<\/table>\r\n<\/div>"
 }
-```          
-</td>
-</tr>
-</table>
+```
 
 
 ### Response
 Returns Json representing the result.
 
-<table>
-<thead>
-  <tr>
-<th>Example Response</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>
-```
+
+#### Example Response
+
+```json
 {
     "resultItem": {
         "name": "Template name",
@@ -251,11 +228,7 @@ Returns Json representing the result.
     "success": true,
     "errors": null
 }
-```          
-</td>
-</tr>
-</table>
-
+```
 
 ___
 
