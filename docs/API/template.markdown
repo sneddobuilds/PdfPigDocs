@@ -196,9 +196,7 @@ The required request options are as follows:
 </tbody>
 </table>
 
-<table>
-<thead>
-  <tr>
+
 #### Example Request Body
 
 ```json
