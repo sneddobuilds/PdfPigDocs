@@ -67,17 +67,7 @@ Returns Json representing the result.
 <tbody>
 <tr>
     <td>
-
-
-
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<pre>
-  <code>
+```json
 {
     "resultItem": {
         "name": "Template name",
@@ -90,9 +80,12 @@ Returns Json representing the result.
     "success": true,
     "errors": null
 }
+```
+</td>
+</tr>
+</tbody>
+</table>
 
-</code>
-</pre>
 
 ___
 
