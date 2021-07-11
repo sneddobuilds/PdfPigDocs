@@ -20,8 +20,12 @@ The request should post a json body to the server with the templateId passed in 
 Ensure that you set the content-type header as follows:
 
 ```
-Content-Type: multipart/form-data
+Content-Type: application/json
 ```
+
+### Request Parameters
+
+`{templateId}` is mandatory and can be obtained via the template endpoint
 
 ## Response
 Returns a pdf file.
