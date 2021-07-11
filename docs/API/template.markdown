@@ -72,6 +72,7 @@ Returns Json representing the result.
 
 </td>
 </tr>
+</tbody>
 </table>
 
 
