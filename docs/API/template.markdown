@@ -83,7 +83,7 @@ ___
 
 | Endpoint        |
 |:-------------|
-| <span class="label label-blue">Get</span>  /Template/GetPaged/{pageNumber}/pageSize          |
+| <span class="label label-blue">Get</span>  /Template/GetPaged/{pageNumber}/{pageSize}          |
 
 | Example        |
 |:-------------|
