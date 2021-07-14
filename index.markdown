@@ -4,3 +4,27 @@
 
 layout: home
 ---
+
+# Introduction to PdfPig
+
+PdfPig is an API to enable businesses to quickly and easily work with PDF files. 
+
+We enable businesses to merge, compress and generate PDFs.
+
+## Merging
+
+Our merging endpoint enables businesses to take a number of pdf and image files and merge them together into a single pdf file.
+
+## Compression
+
+Our compression endpoint allows businesses to send us a pdf file, we will then compress that pdf and return it. Depending on the input file compression make a large reduction in file size.
+
+## Generation
+
+Our generation endpoint allows you pass a body of json and specify a template. We then generate a pdf based on the input. 
+
+Our templates (managed via the template API) are html templates with liquid support. 
+
+# Sign up
+
+We are currently in a closed beta. If you are interested in using our service please contact [David on twitter](https://twitter.com/SneddoBuilds).
