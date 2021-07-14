@@ -32,8 +32,8 @@ We are currently in a closed beta. If you are interested in using our service pl
 
 ## Pricing model
 
-Once we are live our pricing model will be based on transations. Some of the processes we perform are intensive in terms of server usage so our pricing model aims to charge based on actual usage. We believe this is the most fair model for a transactional service like this.
+Once we are live our pricing model will be based on transations. Some of the processes we perform are intensive in terms of server usage so our pricing model aims to charge based on actual usage. We believe this is the fairest model for a transactional service like this.
 
-There are currently 3 transaction types, Merge, Compress, Generate. Each carries a different cost based in the resources used by that given transaction type. 
+There are currently 3 transaction types, Merge, Compress, Generate. Each carries a different cost based on the resources used by that given transaction type. 
 
 We have not yet finalised the pricing for each of the transaction types. We are working with our beta users to understand what the baseline price is, that is how much it costs to execute the given transaction on our servers.
