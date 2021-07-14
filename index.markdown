@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+nav_order: 1
 ---
 
 # Introduction to PdfPig
@@ -28,3 +29,7 @@ Our templates (managed via the template API) are html templates with liquid supp
 # Sign up
 
 We are currently in a closed beta. If you are interested in using our service please contact [David on twitter](https://twitter.com/SneddoBuilds).
+
+## Pricing model
+
+Once we are live our pricing model will be based on transations. Some of the processes we perform are intensive in terms of server usage so our pricing model aims to charge based on actual usage. We believe this is the most fair model for a transactional service like this.
